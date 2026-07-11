@@ -1,0 +1,37 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0066ff"/>
+      <stop offset="25%" style="stop-color:#6600ff"/>
+      <stop offset="50%" style="stop-color:#ff0066"/>
+      <stop offset="75%" style="stop-color:#ff6600"/>
+      <stop offset="100%" style="stop-color:#00ff66"/>
+    </linearGradient>
+    <linearGradient id="rGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#cccccc"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGradient)"/>
+  <circle cx="256" cy="256" r="220" fill="#0B0E13"/>
+  
+  <!-- RX Letters -->
+  <text x="256" y="280" font-family="Arial Black, sans-serif" font-size="180" font-weight="900" fill="url(#rGradient)" text-anchor="middle" style="font-style: italic; letter-spacing: -10px;">RX</text>
+  
+  <!-- Soccer Ball -->
+  <circle cx="380" cy="140" r="50" fill="#ffffff" stroke="#000000" stroke-width="3"/>
+  <path d="M380 115 L395 130 L388 148 L372 148 L365 130 Z" fill="#000000"/>
+  <path d="M380 165 L395 150 L388 132 L372 132 L365 150 Z" fill="#000000"/>
+  
+  <!-- LIVE Badge -->
+  <rect x="120" y="380" width="272" height="60" rx="15" fill="#0B0E13" stroke="#39FF14" stroke-width="4"/>
+  <circle cx="155" cy="410" r="12" fill="#FF3B30"/>
+  <path d="M175 402 Q185 410 175 418" stroke="#FF3B30" stroke-width="3" fill="none"/>
+  <path d="M185 398 Q200 410 185 422" stroke="#FF3B30" stroke-width="3" fill="none"/>
+  <text x="230" y="425" font-family="Arial Black, sans-serif" font-size="40" font-weight="900" fill="#ffffff" style="font-style: italic; letter-spacing: 5px;">LIVE</text>
+  
+  <!-- Outer Ring -->
+  <circle cx="256" cy="256" r="240" fill="none" stroke="#ffffff" stroke-width="8" opacity="0.3"/>
+</svg>
